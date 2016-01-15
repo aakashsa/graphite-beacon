@@ -20,6 +20,8 @@ History: {{ [ alert.convert(v) for v in alert.history[target][:100] ] }} {% end 
 
 View the graph: {{ alert.get_graph_url(alert.query) }}
 
+Click Here: http://54.213.17.67:9300/compare_configs
+
 --
 
 You can configure alerts for notifications in your configuration file.
